@@ -26,19 +26,4 @@ The dataset used for this project is from the UCI Machine Learning Repository:
 3. **Feature Selection**:
    - Use recursive feature elimination (RFE) to identify and remove less important features, thereby improving model performance.
 
-## Files
 
-- `Classification_Down_Syndrome.ipynb`: Jupyter notebook containing the entire workflow, including data preprocessing, model training, and feature selection.
-- `data/`: Directory containing the dataset files.
-- `src/`:
-  - `data_preprocessing.py`: Script for handling missing values and preprocessing the data.
-  - `model_training.py`: Script for training and validating Random Forest, SVM, and Neural Network models.
-  - `feature_selection.py`: Script for applying recursive feature elimination.
-- `requirements.txt`: List of Python packages required to run the code.
-
-## Installation and Setup
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
